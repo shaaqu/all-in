@@ -7,8 +7,6 @@
     "start": "node dist/server.js",
     "dev": "ts-node-dev --respawn src/server.ts"
   },
-  "keywords": [],
-  "author": "shaqu&tuswoj",
   "license": "ISC",
   "description": "",
   "dependencies": {

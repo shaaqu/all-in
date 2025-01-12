@@ -6,14 +6,15 @@
   "scripts": {
     "start:backend": "npm run start --prefix backend",
     "dev:backend": "npm run dev --prefix backend",
-    "build:backend": "npm run build --prefix backend"
+    "build:backend": "npm run build --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "start:frontend": "npm run start --prefix frontend"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shaaqu/all-in.git"
   },
-  "keywords": [],
-  "author": "shaqu&tuswoj",
+  "author": "shaaqu&tuswoj",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shaaqu/all-in/issues"
