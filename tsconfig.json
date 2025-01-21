@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "exactOptionalPropertyTypes": true,
+    "experimentalDecorators": true,
+    //    "importHelpers": true,
+    "incremental": true,
+    "lib": [
+      "es2023"
+    ],
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "noUncheckedSideEffectImports": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2023",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

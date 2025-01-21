@@ -1,11 +1,10 @@
 {
+  "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
     "moduleResolution": "nodenext",
-    "module": "nodenext",
-    "esModuleInterop": true,
-    "skipLibCheck": true
+    "module": "nodenext"
   },
   "include": [
     "./src/**/*.ts"
