@@ -1,28 +1,33 @@
 {
-	"name": "all-in",
-	"version": "1.0.0",
-	"scripts": {
-		"start:backend": "npm run start --prefix backend",
-		"dev:backend": "npm run dev --prefix backend",
-		"build:backend": "npm run build --prefix backend",
-		"build:frontend": "npm run build --prefix frontend",
-		"dev:frontend": "npm run dev --prefix frontend"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/shaaqu/all-in.git"
-	},
-	"author": "shaaqu&tuswoj",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/shaaqu/all-in/issues"
-	},
-	"homepage": "https://github.com/shaaqu/all-in#readme",
-	"devDependencies": {
-		"@eslint/js": "^9.18.0",
-		"eslint": "^9.18.0",
-		"prettier": "^3.4.2",
-		"typescript": "^5.7.3",
-		"typescript-eslint": "^8.21.0"
-	}
+  "name": "all-in",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:backend": "npm run start --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "build:backend": "npm run build --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "start:frontend": "npm run start --prefix frontend",
+    "docker:frontend": "docker-compose up --build frontend",
+    "docker:backend": "docker-compose up --build backend",
+    "docker:all": "docker-compose up --build"
+  },
+  "workspaces": ["frontend", "backend"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaaqu/all-in.git"
+  },
+  "author": "shaaqu&tuswoj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaaqu/all-in/issues"
+  },
+  "homepage": "https://github.com/shaaqu/all-in#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.21.0"
+  }
 }
