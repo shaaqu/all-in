@@ -1,5 +1,5 @@
-import type { Request, Response } from "express";
+import type { Response } from "express";
 
-export function getHello(req: Request, res: Response): void {
+export function getHello(res: Response): void {
 	res.send("Hello World");
 }
