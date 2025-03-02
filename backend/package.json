@@ -5,7 +5,9 @@
 	"scripts": {
 		"build": "tsc",
 		"start": "node dist/server.js",
-		"dev": "ts-node-dev --respawn src/server.ts"
+		"dev": "ts-node-dev --respawn src/server.ts",
+		"test": "jest",
+		"test:watch": "jest --watch"
 	},
 	"license": "ISC",
 	"description": "",
